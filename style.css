@@ -122,6 +122,13 @@ section{
     margin: 0 auto;
     height: 200px;
 }
+.client-content img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #ED4C67;
+    padding: 4px;
+}
 
 .client-content h4{
     margin-bottom: 0;
@@ -144,12 +151,14 @@ a{
     text-decoration: none;
 }
 .message-section{
+
     background-image: linear-gradient(180deg, #e84393 ,#ED4C67);
     border-radius: 5px;
     color: white;
     padding: 20px 50px;
     width: 35%;
     margin: 0 auto;
+    margin-top: 100px;
     
 }
 
