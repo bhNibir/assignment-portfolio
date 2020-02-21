@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+
+}
+
+
+p{
+    color: #57606f;
+}
+
+section{
+    height: 650px;
+}
+
+.half-width{
+    width: 35%;
+    margin-left: 7%;
+    padding-left: 2%;
+    float: left
+}
+
+
+
+/* header section */
+.header-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+
+.name-design{
+    color: #e84393;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+.link-button{
+    text-decoration: none;
+    padding: 7px 25px;
+    background-image: linear-gradient(45deg, #e84393 ,#ED4C67);
+    border-radius: 5px;
+    color: white;
+}
+
+.header-area img{
+    width: 100%;
+    margin-top: 30%;
+}
+
+.header-content{
+    margin-top: 10%;
+    padding-top: 10%;
+}
+
+
+/* biography section */
+
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    
+}
+
+.biography-area img{
+    width: 90%;
+    margin-top: 10%;
+    
+}
+
+.biography-content{
+    margin-top: 10%;
+}
+
+/* Latest Work */
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 400px;
+    background-position: right;
+    margin-top: 100px;
+}
+.text-center{
+    text-align: center;
+    font-size: 30px;
+}
+.content-center{
+    margin-left: 8%;
+}
+
+.img-width{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 40px;
+}
+
+.latest-work img{
+    width: 100%;
+}
